@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@400;700&display=swap');
+
+body{
+    text-align: center;
+    margin-top: auto;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 59px;
+    color: rgb(187, 189, 186);
+    font-weight: 600;
+
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+p,
+input,
+textarea,
+label {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #828282;
+}
+
+input,
+textarea {
+    background-color:#494848;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+    background: #071169;
+    color: white;
+}
+
+input,
+textarea {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
+}
+
+a {
+    color: #828282;
+}
+
+a:hover {
+    color: #fff;
+}

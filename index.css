@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-image: url('background.JPG');
+    color: rgba(255,255,255,1);; 
+    font-family: Roboto;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 24px;
+    color: rgba(255,255,255,1);  
+}
+
+.txt{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 70px;
+}
+span{
+    color: rgb(187, 189, 186);
+}
+.bt{
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 24px;
+}
+
+@media (min-width: 992px){
+    .nav-item{
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        font-size: 18px;
+    }
+    .txt {
+        font-size: 40px;
+    }
+    .bt {
+        font-size: 18px;
+    }
+    .nav-item {
+        padding: 0 .5rem;
+    }
+}

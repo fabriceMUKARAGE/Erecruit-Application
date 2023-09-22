@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body {
+    background-color: #3c3c3c;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+  }
+  
+  .form-control {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #itemList label {
+    display: inline-block;
+    margin-right: 1em;
+} 
+  
+  button[type="submit"] {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  small {
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  #success {
+    color: green;
+  }
+
+
+/* Add media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%; /* adjust the width to be smaller */
+        margin-left: 10%; /* adjust the left margin to center the container */
+    }
+}
+
+ /* Add media query for screens smaller than 600px */
+ @media screen and (max-width: 600px) {
+    .form-control input{
+    font-size: 12px;
+    padding: 8px;
+    }
+}

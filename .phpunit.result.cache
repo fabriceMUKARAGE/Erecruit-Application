@@ -1,0 +1,1 @@
+{"version":1,"defects":{"UserTest::testDelete":4,"UserTest::testNumberOfRows":4,"UsersTest::testNumberOfRows":3},"times":{"UserTest::testDelete":0.012,"UserTest::testNumberOfRows":0.001,"UsersTest::testDelete":0.405,"UsersTest::testNumberOfRows":0.041}}
